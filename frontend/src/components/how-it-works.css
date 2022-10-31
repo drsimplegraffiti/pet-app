@@ -1,0 +1,54 @@
+.how-it-works{
+    background-color: #eee;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.how-it-works h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.how-it-works p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.how-it-works-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-it-works-card{
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.how-it-works-card h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.how-it-works-card p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.how-it-works-card img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.how-it-works-card i{
+    font-size: 50px;
+    color: #1AAC83;
+    margin-bottom: 20px;
+}

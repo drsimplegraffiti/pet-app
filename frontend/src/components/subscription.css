@@ -1,0 +1,51 @@
+.subscription{
+    background-color: #e3e3e3;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.subscription h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.subscription p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.subscription-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription-form input[type=email]{
+    width: 700px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* onclick change outline */
+.subscription-form input[type=email]:focus{
+    outline: none;
+    border: 1px solid #1aac83;
+}
+
+.btn{
+    background-color: #1AAC83;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+    cursor: pointer;
+}

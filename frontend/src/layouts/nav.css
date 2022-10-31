@@ -1,0 +1,79 @@
+.nav-bar {
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+    height: 80px;
+    line-height: 80px;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+
+}
+
+
+.logo {
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+.logo img {
+    margin-top: 14px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+.nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin: 0 30px;
+
+}
+
+.nav-bar a {
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    color: #1aac83;
+    text-decoration: none;
+}
+
+li {
+    font-size: 1rem;
+    font-weight: 500;
+
+
+}
+
+/* style nav bar onscroll */
+.nav-bar.onscroll {
+    background-color: #1AAC83;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+    height: 80px;
+    line-height: 80px;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    color: #fff;
+    transition: all .5s ease;
+
+}
+
+.nav-bar.onscroll a {
+    color: #fff;
+    text-decoration: none;
+
+}

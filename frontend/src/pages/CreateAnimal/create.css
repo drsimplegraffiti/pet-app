@@ -1,0 +1,68 @@
+.create-new-animal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f5;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 70%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+    margin: 0 auto !important;
+}
+
+form input[type=text], input[type=file], input[type=password], input[type=number], input[type=radio], input[type=email], select {
+    width: 80%;
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 20px 10px;
+}
+
+form input[type=text]:focus, input[type=file]:focus, input[type=password]:focus, input[type=number]:focus, input[type=radio]:focus, input[type=email]:focus, select:focus {
+    outline: none;
+    border: 2px solid #1aac83;
+}
+
+form button {
+    width: 40%;
+    height: 10%;
+    border: none;
+    border-radius: 5px;
+    background-color: #1AAC83;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+/* style form label */
+form label {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 10px 0;
+
+}
+
+.preview {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.preview img {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+}

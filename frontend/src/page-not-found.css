@@ -1,0 +1,35 @@
+.page-not-found {
+    background-color: #f5f5f5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page-not-found h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.page-not-found p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.page-not-found a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.page-not-found a:hover{
+    background-color: #333;
+    color: #fff;
+}

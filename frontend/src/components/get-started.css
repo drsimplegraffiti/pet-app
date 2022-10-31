@@ -1,0 +1,41 @@
+.get-started {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+    /* height: 50vh; */
+}
+
+.get-started h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.get-started p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.get-started a {
+    text-decoration: none;
+    color: #fff
+}
+
+.get-started-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-started-btns button {
+    background-color: #1AAC83;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #fff
+}

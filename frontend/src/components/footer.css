@@ -1,0 +1,56 @@
+.footer {
+    background-color: #1AAC83;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-section {
+    flex: 1;
+
+}
+
+.footer-section .about {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.footer-section p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.logo-text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.contact-icons i{
+    font-size: 16px;
+    margin-right: 10px;
+    
+}
+
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.links li {
+    color: #fff;
+}
